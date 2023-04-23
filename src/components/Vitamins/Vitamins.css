@@ -1,0 +1,58 @@
+
+.herom{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-hm{
+    padding: 2rem;
+    padding-top: 1.5rem ;
+    flex:3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    background-image: url('../../Assetes/vit.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.right-hm{
+    flex: 1;
+    position: relative;
+    background-color: var(--orange);
+
+}
+
+.hero-textm{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+.hero-textm>div:nth-of-type(3){
+    font-size: 2rem;
+    margin-left: 15rem;
+    font-weight: bold;
+    text-transform: none;
+    width: 200%;
+    font-family: 'Gumela';
+
+
+}
+.hero-imgm{
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    width: 25rem;
+}
+.hero-img2m{
+    position: absolute;
+    
+    top: 25rem;
+    right: 1rem;
+    width: 25rem;
+}

@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    background-color: black;
+}
+.link{
+    color: aliceblue;
+    font-family: 'Gumela';
+
+}
+.link:hover{
+    color: var(--orange);
+    font-family: 'Gumela';
+
+}
+
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5  rem;
+}
+.user{
+    display: flex;
+    position:relative;
+    margin-left: 27rem;
+    gap: 2rem;
+}
+.logout{
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    width: 5rem;
+    border:2px solid var(--orange);
+}

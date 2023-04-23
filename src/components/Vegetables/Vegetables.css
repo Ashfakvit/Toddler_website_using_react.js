@@ -1,0 +1,43 @@
+
+.Vegetables{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-hv{
+    padding: 2rem;
+    padding-top: 1.5rem ;
+    flex:3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.right-hv{
+    flex: 1;
+    position: relative;
+    background-color: var(--orange);
+
+}
+
+.hero-textv{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+.hero-textv>div:nth-of-type(2){
+    font-size: 2rem;
+}
+.hero-textv>div:nth-of-type(3){
+    font-size: 2rem;
+    margin-left: 15rem;
+    font-weight: bold;
+    text-transform: none;
+    width: 200%;
+
+}
+
